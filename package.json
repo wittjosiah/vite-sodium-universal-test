@@ -7,7 +7,15 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "sodium-universal": "^3.1.0"
+  },
   "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "rollup": "^2.75.7",
+    "rollup-plugin-polyfill-node": "^0.10.0",
+    "esbuild": "^0.14.48",
     "vite": "^2.9.9"
   }
 }
